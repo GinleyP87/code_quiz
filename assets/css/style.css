@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    font-size: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+.header {
+    display: inline-block;
+    background-color: green;
+    border-radius: 9px;
+    margin: 0 20px;
+    padding: 5px 20px;
+    cursor: pointer
+}
+
+.header:hover{
+    background-color: greenyellow;
+    transition: .5s;
+}
+
+#high-scores-link {
+    cursor: pointer;
+}
+
+#high-scores-link:hover {
+    background-color: greenyellow;
+    border: double;
+    transition: .5s;
+    cursor: pointer;
+}
+
+main {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+section {
+    text-align: center;
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 60%;
+}
+
+button {
+    border: 1px solid white;
+    background-color: green;
+    border-radius: 9px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    transition:  .5s;
+    border: double;
+}
+
+section p {
+    margin: 30px auto;
+}
+
+ul {
+    list-style: none;
+    margin: 1.25em auto;
+    padding: 0;
+}
+
+ul li {
+    border-radius: 9px;
+    margin: 10px auto;
+    padding: 2px;
+    width: 250px;
+}
+
+#answers li {
+    cursor: pointer;
+    background: green;
+    border: double;
+}
+
+#answers li:hover {
+    background-color: greenyellow;
+    border: double black;
+    transition: .5s;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+#quiz {
+    display: none;
+    margin: 0 auto;
+}
+
+
+#score-form {
+    display: none;
+}
+
+#score-board {
+    display: none;
+
+}
+
+#result {
+    font-style: italic;
+}
+
+#high-scores {
+    margin: auto;
+}
+
+footer {
+    background-color: rgba(173, 255, 47, .5);
+}
+
+footer p {
+    font-size: 14px;
+    margin-right: 25px;
+    text-align: right
+}

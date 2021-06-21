@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <p id="high-scores-button" class="header">High Scores</p>
+        <p class="header">Time: <span id="timer"></span></p>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Code Quiz Challenge</h1>
+            <p>You have 50 seconds to complete this JavaScript quiz.  Be careful: if you click the wrong answer you lose 5 seconds off the clock!</p>
+            <p>Good Luck!</p>
+            <button id="start">Start</button>
+        </section>
+        
+        <section id="quiz">
+            <h2 id="question"></h2>
+            
+            <ul id="answers">
+                <li id='a1'></li>
+                <li id='a2'></li>
+                <li id='a3'></li>
+                <li id='a4'></li>
+            </ul>
+
+            <p id="result"></p>   
+        </section>
+
+        <section id="high-score-form">
+            <h2>All Done!</h2>
+            <p id="final-score"></p>
+            
+            <form method="POST">
+                <label for="initials">Enter initials:</label>
+                <input type="text" name="initials" id="initials" />
+                <button id="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="score-sheet">
+            <h1>High Scores</h1>
+            <ul id='high-scores'>
+            </ul>
+            <div>
+                <button id="play-again">Play Again</button>
+                <button id="clear-scores">Clear High Scores</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Mod 4: Web API Code Quiz</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
